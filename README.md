@@ -30,11 +30,11 @@ To run the application, first download the git repo:
 ```sh
 $ git clone https://github.com/athd92/Api-test-colors
 ```
-Once done, go inside the TestColors folder with:
+Once done, go inside the mysite folder with:
 ```sh
-$ cd TestColors
+$ cd mysite
 ```
-then, start execute the command:
+then, to start, execute the command:
 ```sh
 $ docker-compose up
 ```
