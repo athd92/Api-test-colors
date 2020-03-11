@@ -42,6 +42,24 @@ $ docker-compose up
 ### Usage
 
 This API REST provides informations about colors. 
+
+Request examples:
+
+Get all colors sorted by id (pagination -> 3 objects per page) in JSON response
+
 ```sh
-$ 
+$ http://0.0.0.0:8000/colors/?page=1&format=json
 ```
+
+Get a specific objet color infos by id and JSON format:
+
+```sh
+$ http://0.0.0.0:8000/colors/4/?format=json
+```
+
+Get a specific objet color infos by id and XML format:
+
+```sh
+$ http://0.0.0.0:8000/colors/4/?format=xml
+```
+
